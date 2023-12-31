@@ -1,0 +1,15 @@
+package com.cdac.repository;
+
+import com.cdac.entity.Event;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface EventRepository extends JpaRepository<Event, Long> {
+    // Custom query method to find events by title
+    List<Event> findByTitle(String title);
+
+    // You can add more custom queries or methods if needed
+}

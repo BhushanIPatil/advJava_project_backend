@@ -1,0 +1,98 @@
+//package com.cdac.service;
+//
+//import java.util.Optional;
+//
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.stereotype.Service;
+//
+//import com.cdac.entity.User;
+//import com.cdac.exception.UserServiceException;
+//import com.cdac.repository.UserRepository;
+//
+//@Service
+//public class UserService {
+//
+//	@Autowired
+//	private UserRepository userRepository;
+//	
+//	public int register(User user) {
+//		//suppose we need to check if this customer has already registered before
+//		Optional<User> userCheck = userRepository.findByEmail(user.getEmail());
+//		if(userCheck.isEmpty()) {
+//			User savedUser = userRepository.save(user);
+//			return savedUser.getId();
+//		}
+//		else
+//			throw new UserServiceException("User already registered!");
+//	}
+//
+//	public void login() {
+//		
+//	}
+//
+//}
+
+
+
+
+
+
+package com.cdac.service;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
+
+import com.cdac.entity.User;
+import com.cdac.exception.UserServiceException;
+import com.cdac.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.Optional;
+
+@Service
+public class UserService {
+
+    private final UserRepository userRepository;
+
+    @Autowired
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public int register(User user) {
+        // Check if the user with the given email already exists
+        Optional<User> userCheck = userRepository.findByEmail(user.getEmail());
+        if (userCheck.isEmpty()) {
+            // Save the user if not already registered
+            User savedUser = userRepository.save(user);
+            return savedUser.getId();
+        } else {
+            throw new UserServiceException("User already registered!");
+        }
+    }
+
+    public User login(String email, String password) {
+        // Find the user by email in the database
+//    	User user = userRepository.findByEmail(email);
+    	Optional<User> userOptional = userRepository.findByEmail(email);
+
+    	User user = userOptional.get();
+        // Check if the user exists
+        if (userOptional == null) {
+            throw new UserServiceException("User with this email does not exist");
+        }
+
+        // Check if the provided password matches the stored password
+//        if (!userOptional.getPassword().equals(password)) {
+//            throw new UserServiceException("Invalid password");
+//        }
+        
+        if (!user.getPassword().equals(password)) {
+            throw new UserServiceException("Invalid password");
+        }
+
+        // If everything is correct, return the user
+        return user;
+    }
+}

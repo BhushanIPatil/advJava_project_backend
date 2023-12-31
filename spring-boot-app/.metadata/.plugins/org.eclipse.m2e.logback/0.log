@@ -1,0 +1,200 @@
+2023-12-30 18:32:48,475 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-30 18:34:16,003 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-30 18:34:50,753 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cdac:spring-boot-app:0.0.1-SNAPSHOT @ C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\pom.xml.
+2023-12-30 18:34:53,815 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-app/src/main/java
+2023-12-30 18:34:53,816 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-app/src/main/resources
+2023-12-30 18:34:53,817 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-app/src/main/resources
+2023-12-30 18:34:53,821 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-app/src/test/java
+2023-12-30 18:34:53,822 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-app/src/test/resources
+2023-12-30 18:34:54,315 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2023-12-30 18:34:55,882 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 18:34:55,924 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 18:34:55,937 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 18:49:43,646 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 18:49:43,811 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 18:49:43,820 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 18:50:20,577 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 18:50:20,720 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 18:50:20,727 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 18:50:37,131 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 18:50:37,244 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 18:50:37,250 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 18:51:04,699 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 18:51:04,733 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 18:51:04,744 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 18:52:16,305 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 18:52:16,333 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 18:52:16,344 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 18:53:34,730 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 18:53:34,746 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 18:53:34,752 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 19:23:27,903 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 19:23:27,988 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 19:23:27,994 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 19:46:07,199 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 19:46:07,362 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 19:46:07,368 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 19:46:09,173 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 19:46:09,241 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 19:46:09,254 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 19:48:32,635 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 19:48:32,690 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 19:48:32,705 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 19:48:51,279 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 19:48:51,287 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 19:48:51,293 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 19:54:40,440 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 19:54:40,449 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 19:54:40,455 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 19:58:32,883 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 19:58:32,892 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 19:58:32,895 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 20:16:11,497 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 20:16:11,554 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 20:16:11,578 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 20:16:49,643 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 20:16:49,674 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 20:16:49,678 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 20:18:47,275 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 20:18:47,328 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 20:18:47,349 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-30 20:19:22,227 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-30 20:19:22,248 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-30 20:19:22,255 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023\Day16_1\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:10:30,280 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-31 11:10:35,889 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:10:36,084 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:10:36,102 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:18:12,579 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:18:12,807 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:18:12,818 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:19:06,620 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:19:06,744 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:19:06,750 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:19:26,731 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:19:26,733 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:19:26,741 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:20:17,932 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:20:17,942 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:20:17,947 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:22:06,619 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:22:06,627 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:22:06,633 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:22:52,634 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:22:52,642 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:22:52,646 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:24:41,170 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:24:41,178 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:24:41,188 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:25:43,084 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:25:43,095 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:25:43,099 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:26:30,770 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:26:30,836 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:26:30,842 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:27:30,204 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:27:30,214 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:27:30,220 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:30:55,333 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:30:55,352 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:30:55,356 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:31:30,701 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:31:30,842 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:31:30,845 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:32:05,816 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:32:05,827 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:32:05,833 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:32:25,862 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:32:25,894 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:32:25,903 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:33:22,813 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:33:22,820 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:33:22,824 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:33:49,046 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:33:49,067 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:33:49,071 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:34:12,344 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:34:12,351 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:34:12,354 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:34:39,791 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:34:39,804 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:34:39,808 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:36:20,373 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:36:20,383 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:36:20,398 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:37:01,370 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:37:01,378 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:37:01,384 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:38:07,920 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:38:07,926 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:38:07,931 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:38:32,520 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:38:32,525 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:38:32,529 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:38:44,659 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:38:44,692 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:38:44,698 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:40:59,870 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:40:59,878 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:40:59,882 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:42:04,919 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:42:04,928 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:42:04,936 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:55:19,774 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:55:19,881 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:55:19,887 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:55:55,444 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:55:55,454 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:55:55,460 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:55:59,022 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:55:59,073 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:55:59,079 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:56:15,521 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:56:15,628 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:56:15,637 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 11:56:56,551 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 11:56:56,618 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 11:56:56,626 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 12:00:24,190 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 12:00:24,310 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 12:00:24,321 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 12:00:31,053 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 12:00:31,102 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 12:00:31,107 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 12:01:12,603 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 12:01:12,614 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 12:01:12,617 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 12:01:56,762 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 12:01:56,786 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 12:01:56,791 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 12:02:11,682 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 12:02:11,807 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 12:02:11,811 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 12:08:24,745 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 12:08:24,839 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 12:08:24,845 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 12:18:30,681 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-31 14:34:11,968 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-31 19:12:19,161 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-31 19:14:52,506 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 19:14:52,661 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 19:14:52,680 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 19:15:01,793 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 19:15:01,836 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 19:15:01,846 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 19:15:13,594 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 19:15:13,602 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 19:15:13,608 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 19:15:21,646 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 19:15:21,650 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 19:15:21,658 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 20:55:22,618 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-31 21:32:55,979 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 21:32:56,086 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 21:32:56,098 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 21:34:07,664 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 21:34:07,828 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 21:34:07,839 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources
+2023-12-31 23:10:25,117 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-12-31 23:10:25,197 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-31 23:10:25,207 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CDAC\Modules\Adv_Java\Adv_Java_Workspace\Day16_29-12-2023_Project\Project_Backend\spring-boot-app\spring-boot-app\src\test\resources

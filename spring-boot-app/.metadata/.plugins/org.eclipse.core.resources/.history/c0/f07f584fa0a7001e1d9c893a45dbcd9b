@@ -1,0 +1,172 @@
+package com.cdac.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "tbl_user")
+public class User {
+	import React, { useState } from 'react';
+	import axios from 'axios';
+	import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+	import { useNavigate } from 'react-router-dom'; // Import useHistory from react-router-dom
+
+	// Define the Login component
+	export function Login() {
+	  const [formData, setFormData] = useState({
+	    email: '',
+	    password: '',
+	  });
+
+	  const [error, setError] = useState('');
+
+	  const history = useNavigate(); // Use useHistory to get the history object
+
+	  const handleChange = (fieldName, value) => {
+	    setFormData({
+	      ...formData,
+	      [fieldName]: value,
+	    });
+	  };
+
+	  const handleSubmit = (e) => {
+	    e.preventDefault();
+
+	    // Handle form submission with formData
+	    console.log('Logging in with', formData.email, 'and', formData.password);
+
+	    // Call the login function after validation
+	    login();
+	  };
+
+	  const login = () => {
+	    let url = 'http://localhost:8080/login';
+	    axios
+	      .post(url, formData)
+	      .then((response) => {
+	        if (response.data.status) {
+	          // Redirect to the home page or any other page after successful login
+	          history('/');
+	        } else {
+	          setError('Invalid email or password');
+	        }
+	      })
+	      .catch((error) => {
+	        console.error('Login error:', error);
+	        setError('An error occurred during login');
+	      });
+	  };
+
+	    return (
+	    <div>
+	      <Container>
+	        <Row>
+	          <Col lg="12" className="mt-4">
+	            <h2>Login</h2>
+	          </Col>
+	        </Row>
+	        <Form onSubmit={handleSubmit}>
+	          <Row>
+	            <Col lg="6">
+	              <Form.Group className="mt-4">
+	                <Form.Label>Email</Form.Label>
+	                <Form.Control
+	                  type="email"
+	                  placeholder="name@example.com"
+	                  value={formData.email}
+	                  onChange={(e) => handleChange('email', e.target.value)}
+	                />
+	              </Form.Group>
+	            </Col>
+	          </Row>
+	          <Row>
+	            <Col lg="6">
+	              <Form.Group className="mt-4">
+	                <Form.Label>Password</Form.Label>
+	                <Form.Control
+	                  type="password"
+	                  placeholder="Enter password"
+	                  value={formData.password}
+	                  onChange={(e) => handleChange('password', e.target.value)}
+	                />
+	              </Form.Group>
+	            </Col>
+	          </Row>
+	          <Row>
+	            <Col lg="12" className="mt-4">
+	              <Button type="submit">Login</Button>
+	              <br />
+	              <br />
+	            </Col>
+	          </Row>
+	        </Form>
+	        {error && <p>{error}</p>}
+	      </Container>
+	    </div>
+	  );
+	}
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    private String firstName;
+    private String middleName;
+    private String lastName;
+    private String email;
+    private String contact;
+    private String gender;
+    private String password;
+    
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getMiddleName() {
+		return middleName;
+	}
+	public void setMiddleName(String middleName) {
+		this.middleName = middleName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getContact() {
+		return contact;
+	}
+	public void setContact(String contact) {
+		this.contact = contact;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+    
+}

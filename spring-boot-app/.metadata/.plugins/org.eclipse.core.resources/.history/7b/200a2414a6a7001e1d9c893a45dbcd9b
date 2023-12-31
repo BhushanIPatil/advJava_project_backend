@@ -1,0 +1,50 @@
+package com.cdac.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "tbl_admin")
+public class Admin {
+
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    private String firstName = "Bhushan";
+    private String middleName = "Ishwar";
+    private String lastName = "Patil";
+    private String email = "bhushanpatil@gmail.com";
+    private String contact = "8551064927";
+    private String gender = "Male";
+    private String password = "Bhush@123";
+	public int getId() {
+		return id;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public String getMiddleName() {
+		return middleName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public String getContact() {
+		return contact;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public String getPassword() {
+		return password;
+	}
+    
+    
+}

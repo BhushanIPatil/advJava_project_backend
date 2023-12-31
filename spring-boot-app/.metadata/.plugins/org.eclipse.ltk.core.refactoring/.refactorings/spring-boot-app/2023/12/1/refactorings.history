@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;User.java&apos; to &apos;entity&apos;&#x0D;&#x0A;- Original project: &apos;spring-boot-app&apos;&#x0D;&#x0A;- Destination element: &apos;entity&apos;&#x0D;&#x0A;- Original element: &apos;User.java&apos;" description="Copy file" element1="src/main/java/com/cdac/entity/User.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1704001766427" target="/spring-boot-app/src/main/java/com/cdac/entity" units="0" version="1.0"/>
+</session>

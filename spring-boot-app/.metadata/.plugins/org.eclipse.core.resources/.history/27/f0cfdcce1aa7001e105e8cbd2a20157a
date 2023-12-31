@@ -1,0 +1,33 @@
+package com.cdac.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cdac.entity.User;
+import com.cdac.exception.UserServiceException;
+import com.cdac.repository.UserRepository;
+
+@Service
+public class UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+	
+	public int register(User user) {
+		//suppose we need to check if this customer has already registered before
+		Optional<User> userCheck = userRepository.findByEmail(user.getEmail());
+		if(userCheck.isEmpty()) {
+			User savedUser = userRepository.save(user);
+			return savedUser.getId();
+		}
+		else
+			throw new UserServiceException("User already registered!");
+	}
+
+	public void login() {
+		
+	}
+
+}
